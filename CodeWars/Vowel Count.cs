@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CodeWars
 {
-    public class Vowel_Count
+    public static class Vowel_Count
     {
-        public int GetVowelCount(string str)
+        public static int GetVowelCount(string str)
         {
             int vowelCount = 0;
             char[] vowels = {'a','e','i','o','u' };
