@@ -7,11 +7,9 @@ namespace CodeWars
     {
         static void Main(string[] args)
         {
-            string s1 = "xyaabbbccccdefww";
-            string s2 = "xxxxyyyyabklmopq";
-            string result = TwotoOne.Longest(s1, s2);
+            string s = "You were trying to solve the 6 kyu IQ test";
 
-            Console.WriteLine(result);
+            Console.WriteLine(s);
         }
     }
 }
